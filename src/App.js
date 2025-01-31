@@ -48,7 +48,7 @@ function App() {
   element={<Boy_Girl headername="Hostel Attendance" previous_path="/hostel_attendance" previouspath="/"/>}/>
       <Route 
       path="/hostel_attendance/boy"
-      element={<TwoOptions previous_path="/hostel_attendance/boy" previouspath="/hostel_attendance/" headername="Hostel Attendance" name1="E3" name2="E4"/>}
+      element={<TwoOptions previous_path="/hostel_attendance/boy" previouspath="/hostel_attendance/" headername="Hostel Attendance" name1="E6" name2="E4"/>}
       />
       <Route 
       path="/hostel_attendance/girl"
