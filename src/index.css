@@ -499,6 +499,7 @@ footer {
   height:3vh;
   width:30vh;
 }
+
 .leave_out_input_section{
   text-align: center;
   border-radius: 1vh;
@@ -754,6 +755,11 @@ h1 {
     flex-direction: column;
     gap: 1vh;
   }
+  .student_faculty_total{
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
 
 
@@ -807,12 +813,12 @@ h1 {
 /* //Responsive */
 @media(max-width:576px){ /*xs*/
   .student{
-    height:35vh;
-    width:35vh;
+    height:25vh;
+    width:25vh;
   }
   .faculty{
-    height: 35vh;
-    width: 35vh;
+    height: 25vh;
+    width: 25vh;
   }
   .boy{
     height:35vh;
